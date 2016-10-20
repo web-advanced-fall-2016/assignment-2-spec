@@ -58,9 +58,9 @@ The server provides **RESTful** endpoints. The format of the responses are alway
 
 | Verb | URL endpoint                | Resource description                     | Response structure          |
 | :--- | --------------------------- | ---------------------------------------- | --------------------------- |
-| GET  | /students                   | get list of all student names and their ids | [structure](#####/students) |
-| GET  | /students/`$student-id`     | get full information of individual student with id=`$student-id` | [structure]()               |
-| GET  | /students/`$student-id`/bio | get full biography of student with id=`$student-id` | [structure]()               |
+| GET  | /students                   | get list of all student names and their ids | [structure](https://github.com/web-advanced-fall-2016/assignment-2-spec/blob/master/README.md#students) |
+| GET  | /students/`$student-id`     | get full information of individual student with id=`$student-id` | [structure](https://github.com/web-advanced-fall-2016/assignment-2-spec/blob/master/README.md#studentsstudent-id)               |
+| GET  | /students/`$student-id`/bio | get full biography of student with id=`$student-id` | [structure](https://github.com/web-advanced-fall-2016/assignment-2-spec/blob/master/README.md#studentsstudent-id)               |
 
 
 
