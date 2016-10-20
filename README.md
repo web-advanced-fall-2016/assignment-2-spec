@@ -34,7 +34,11 @@ Your **single page application** must not get load and fetch students informatio
 - Use **[Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)** in order to query and load content
 - Make it look beautiful! Be proud of your work.
 
+### Submission Details
 
+All the submission must be done through github to our class organization [@web-advanced-fall-2016](https://github.com/web-advanced-fall-2016). The assignment will be accomodated and distributed using [GitHub Classroom](https://classroom.github.com/). GitHub classroom will automatically create a repository in our organization for each student and will grant administrative rights of that repository to that student.    
+All students **MUST** visit this url: [Confirmation Link](). There you will be asked to accept and confirm the reception of the First Assignment and consequently a repository will be automatically created for you under our oranization. The name of your repository will follow the following pattern: `assignment-2-${your GitHub username}`.
+ 
 
 ### Assignment Demo 
 
