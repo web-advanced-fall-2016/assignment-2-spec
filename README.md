@@ -52,7 +52,7 @@ A NodeJS server is setup, deployed and accessible through this static ip address
 
 ### API Information
 
-The server provides **RESTful** endpoints. The format of the responses are always `JSON` .The server provides the following API endpoints:
+The server provides **RESTful** endpoints. The format of the responses are always `JSON` ([http://json.org/](http://json.org/) .The server provides the following API endpoints:
 
 #### Students endpoints
 
