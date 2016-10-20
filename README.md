@@ -6,9 +6,9 @@ In your second assignment, you are expected to perform interaction with a server
 
 Each student has the following information bound to it:
 
+- Student id
 - First name
 - Last name
-- Student id
 - Student email address
 - Student biography
 - Profile picture
@@ -56,16 +56,67 @@ The server provides **RESTful** endpoints. The format of the responses are alway
 
 #### Students endpoints
 
-| Verb | URL endpoint                             | Resource description                     | Response structure |
-| :--- | ---------------------------------------- | ---------------------------------------- | ------------------ |
-| GET  | /students                                | get list of all student names and their ids | [structure]()      |
-| GET  | /students/`$student-id`                  | get full information of individual student with id=`$student-id` | [structure]()      |
-| GET  | /students/`$student-id`/first-name       | get first name of student with id=`$student-id` | [structure]()      |
-| GET  | /students/`$student-id`/last-name        | get last name of student with id=`$student-id` | [structure]()      |
-| GET  | /students/`$student-id`/biography        | get biography of student with id=`$student-id` | [structure]()      |
-| GET  | /students/`$student-id`/email-address    | get email address of student with id=`$student-id` | [structure]()      |
-| GET  | /students/`$student-id`/links            | get list of links of student with id=`$student-id` | [structure]()      |
-| GET  | /students/`$student-id`/links/`$link-id` | get link information of with student id=`$student-id` and link id=`$link-id` | [structure]()      |
+| Verb | URL endpoint                | Resource description                     | Response structure          |
+| :--- | --------------------------- | ---------------------------------------- | --------------------------- |
+| GET  | /students                   | get list of all student names and their ids | [structure](#####/students) |
+| GET  | /students/`$student-id`     | get full information of individual student with id=`$student-id` | [structure]()               |
+| GET  | /students/`$student-id`/bio | get full biography of student with id=`$student-id` | [structure]()               |
+
+
+
+##### /students
+
+```json
+[
+  {
+    "id": "43123",
+    "first_name": "Saman",
+    "last_name": "Tehrani"
+  },
+  {
+	"id": "12314",
+    "first_name": "Raha",
+    "last_name": "Ghasemi"
+  },
+  ...
+]
+```
+
+##### /students/`$student-id`
+
+```json
+{
+  "id": "12314",
+  "first_name": "Raha",
+  "last_name": "Ghasemi"
+  "email": "ghasemi@gmail.com",
+  "excerpt": "MFA Design & Technology Candidate, Class of 2017",
+  "profile_picture": "/assets/img/rahaghasemi.png",
+  "links": [
+	{
+	  "url": "https://github.com/rahaghasemi",
+      "name":"GitHub",
+  	  "id": "23425",
+      "icon": "/assets/img/github.png"
+    },{
+      "url": "http://rahaghasemi.com",
+      "name":"Personal Portfolio",
+  	  "id": "62355"
+    },
+	...
+  ]
+}
+```
+
+##### /students/`$student-id`/bio
+
+```json
+{
+  "id": "12314",
+  "full_bio": "Brisket swine fatback meatloaf salami. Tri-tip porchetta turkey short ribs 				 meatloaf. Flank pastrami andouille frankfurter biltong chuck. Pork loin 				meatball bresaola ham fatback swine, porchetta ground round shank t-bone 				beef spare ribs chuck salami hamburger.",
+  "excerpt": "MFA Design & Technology Candidate, Class of 2017"
+}
+```
 
 
 
