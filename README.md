@@ -18,7 +18,7 @@ Each `student` entity has the following information bound to it:
 
 ### Requirments
 
-Your **single page application** must not get load and fetch students information all at once and at the initial load of the page, whereas, individual student information must be queried and fetched as per requested by user (when user navigates on a student). Your **single page application** must have right/left or up/down or any other format of controls to navigate through different students. Also, you can use [carousel](https://github.com/samantehrani/simple-carousel), [accordion](https://github.com/samantehrani/simple-accordion), [search box](), or [modal](https://github.com/samantehrani/simple-modal) user interface elements that we built in [assignment 1](https://github.com/web-advanced-fall-2016/assignment-1-spec). Or any other third-party UI Element. 
+Your **single page application** must not get load and fetch students information all at once and at the initial load of the page, whereas, individual student information must be queried and fetched as per requested by user (when user navigates on a student). Your **single page application** must have right/left or up/down or any other format of controls to navigate through different students. Also, you can use [carousel](https://github.com/samantehrani/simple-carousel), [accordion](https://github.com/samantehrani/simple-accordion), [search box](), or [modal](https://github.com/samantehrani/simple-modal) user interface elements that we built in [assignment 1](https://github.com/web-advanced-fall-2016/assignment-1-spec). Or any other third-party UI Element. UI is up to you, be creative or not. You have a list of student information and you want to display them indivudualy.
 
 - You are **allowed to use JQuery**. That said, native [XMLHTTPRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) or [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is recommended. 
 - You are **allowed to use third-party front-end frameworks** like [Bootstrap](http://getbootstrap.com/)/[Foundation](http://foundation.zurb.com/).
@@ -32,7 +32,7 @@ Your **single page application** must not get load and fetch students informatio
 - Build a **demo page** using [GitHub Project Page](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
 - Store students information in **[sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)** in order to avoid loading information once they have been loaded once.
 - Use **[Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)** in order to query and load content
-- Make it look beautiful! Be proud of your work.
+- Make it look beautiful! Be proud of your work. (The most advanced, optimized, modern, or flawless code won't impress as long as it is visually unappealing)  
 
 ### Submission Details
 
