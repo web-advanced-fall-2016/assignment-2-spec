@@ -88,7 +88,7 @@ The server provides **RESTful** endpoints. The format of the responses are alway
 {
   "id": "12314",
   "first_name": "Raha",
-  "last_name": "Ghasemi"
+  "last_name": "Ghasemi",
   "email": "ghasemi@gmail.com",
   "excerpt": "MFA Design & Technology Candidate, Class of 2017",
   "profile_picture": "/assets/img/rahaghasemi.png",
@@ -103,7 +103,7 @@ The server provides **RESTful** endpoints. The format of the responses are alway
       "name":"Personal Portfolio",
   	  "id": "62355"
     },
-	...
+    ...
   ]
 }
 ```
@@ -113,7 +113,7 @@ The server provides **RESTful** endpoints. The format of the responses are alway
 ```json
 {
   "id": "12314",
-  "full_bio": "Brisket swine fatback meatloaf salami. Tri-tip porchetta turkey short ribs 				 meatloaf. Flank pastrami andouille frankfurter biltong chuck. Pork loin 				meatball bresaola ham fatback swine, porchetta ground round shank t-bone 				beef spare ribs chuck salami hamburger.",
+  "full_bio": "Brisket swine fatback meatloaf salami. Tri-tip porchetta turkey short ribs meatloaf. Flank pastrami andouille frankfurter biltong chuck. Pork loin meatball bresaola ham fatback swine, porchetta ground round shank t-bone beef spare ribs chuck salami hamburger.",
   "excerpt": "MFA Design & Technology Candidate, Class of 2017"
 }
 ```
