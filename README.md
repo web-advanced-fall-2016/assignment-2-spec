@@ -4,7 +4,7 @@
 
 In your second assignment, you are expected to perform interaction with a server that informs you with a list of `Students` and their information. You should build a [**single page application**](https://en.wikipedia.org/wiki/Single-page_application) that queries this information from the server and displays them on the browser window through a basic interface. The focus is not on styling the interface, but better look is always encouraged.
 
-Each student has the following information bound to it:
+Each `student` entity has the following information bound to it:
 
 - Student id
 - First name
