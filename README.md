@@ -20,7 +20,7 @@ Your **single page application** must not get load and fetch students informatio
 
 - You will be **allowed to use JQuery**. That being said, native [XMLHTTPRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) or [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is encouraged and recommended. 
 - You will be **allowed to use third-party front-end frameworks** like [Bootstrap](http://getbootstrap.com/) / [Foundation](http://foundation.zurb.com/) as well.
-- You **must use gulp task automation**. Use this gulpfile setup and structure: [https://github.com/web]().
+- You **must use gulp task automation**. Use this gulp file setup and structure: [https://github.com/web-advanced-fall-2016/gulp-scaffold](https://github.com/web-advanced-fall-2016/gulp-scaffold).
 - You can use plain **CSS**. That being said, the use of **SASS** is encouraged. 
 
 ### Bonus Requirements
@@ -33,17 +33,17 @@ Your **single page application** must not get load and fetch students informatio
 ### Submission Details
 
 All the submissions must be done through github to our class organization [@web-advanced-fall-2016](https://github.com/web-advanced-fall-2016). The assignment will be accommodate and distributed using [GitHub Classroom](https://classroom.github.com/). GitHub classroom will automatically create a repository in our organization for each student and will grant the, administrative rights to that repository.    
-All students **MUST** visit this url: [Confirmation Link](). There you will be asked to accept and confirm the reception of the *Second Assignment* and consequently a repository will be automatically created for you under our oranization. The name of your repository will follow the following pattern: `assignment-2-${your GitHub username}`.
+All students **MUST** visit this url: [Confirmation Link](https://classroom.github.com/assignment-invitations/b8a28fbffea8c86e797dee1654fd8234). There you will be asked to accept and confirm the reception of the *Second Assignment* and consequently a repository will be automatically created for you under our oranization. The name of your repository will follow the following pattern: `assignment-2-${your GitHub username}`.
 
 ### Assignment Demo 
 
-Here is a **[demo]()** that meets all the requirements. 
+Here is a **[demo](https://github.com/samantehrani/nerdishly-stunning-class)** that meets all the requirements. 
 
 ------
 
 ## Server Information
 
-A NodeJS server is setup, deployed and accessible through this static ip address: `8.8.8.8` on port `8080`. If you want run the server locally on your personal machine, you will need to clone the server code from the this repository [https://github.com/samantehrani/students-api-server]() and deploy the server on your machine. For more information, refer to [Server setup walkthrough]().
+A NodeJS server is setup, deployed and accessible through this static ip address: `8.8.8.8` on port `8080`. If you want run the server locally on your personal machine, you will need to clone the server code from the this repository [[students-api-endpoints](https://github.com/samantehrani/students-api-endpoints)]([students-api-endpoints](https://github.com/samantehrani/students-api-endpoints)) and deploy the server on your machine. For more information, check out [Server setup walkthrough]([students-api-endpoints](https://github.com/samantehrani/students-api-endpoints)).
 
 ### API Information
 
@@ -51,11 +51,11 @@ The server provides **RESTful** endpoints. The format of the responses are alway
 
 #### Students endpoint
 
-| Verb | URL endpoint                | Resource description                     | Response structure          |
-| :--- | --------------------------- | ---------------------------------------- | --------------------------- |
+| Verb | URL endpoint                | Resource description                     | Response structure                       |
+| :--- | --------------------------- | ---------------------------------------- | ---------------------------------------- |
 | GET  | /students                   | get list of all student names and their ids | [structure](https://github.com/web-advanced-fall-2016/assignment-2-spec/blob/master/README.md#students) |
-| GET  | /students/`$student-id`     | get full information of individual student with id=`$student-id` | [structure](https://github.com/web-advanced-fall-2016/assignment-2-spec/blob/master/README.md#studentsstudent-id)               |
-| GET  | /students/`$student-id`/bio | get full biography of student with id=`$student-id` | [structure](https://github.com/web-advanced-fall-2016/assignment-2-spec/blob/master/README.md#studentsstudent-idbio)               |
+| GET  | /students/`$student-id`     | get full information of individual student with id=`$student-id` | [structure](https://github.com/web-advanced-fall-2016/assignment-2-spec/blob/master/README.md#studentsstudent-id) |
+| GET  | /students/`$student-id`/bio | get full biography of student with id=`$student-id` | [structure](https://github.com/web-advanced-fall-2016/assignment-2-spec/blob/master/README.md#studentsstudent-idbio) |
 
 ##### /students
 
