@@ -1,4 +1,4 @@
-# Simple Page Applications / AJAX
+# Single Page Applications / AJAX
 
 ## Assignment Specification
 
