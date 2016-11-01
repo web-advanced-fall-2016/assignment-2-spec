@@ -37,13 +37,13 @@ All students **MUST** visit this url: [Confirmation Link](https://classroom.gith
 
 ### Assignment Demo 
 
-Here is a **[demo](https://github.com/samantehrani/nerdishly-stunning-class)** that meets all the requirements. 
+Here is a **[demo](https://148.75.251.185:8888/public)** that meets all the requirements. 
 
 ------
 
 ## Server Information
 
-A NodeJS server is setup, deployed and accessible through this static ip address: `8.8.8.8` on port `8080`. If you want run the server locally on your personal machine, you will need to clone the server code from the this repository [[students-api-endpoints](https://github.com/samantehrani/students-api-endpoints)]([students-api-endpoints](https://github.com/samantehrani/students-api-endpoints)) and deploy the server on your machine. For more information, check out [Server setup walkthrough]([students-api-endpoints](https://github.com/samantehrani/students-api-endpoints)).
+A NodeJS server is setup, deployed and accessible through this static ip address: `148.75.251.185` on port `8888`. If you want run the server locally on your personal machine, you will need to clone the server code from the this repository [[students-api-endpoints](https://github.com/samantehrani/students-api-endpoints)]([students-api-endpoints](https://github.com/samantehrani/students-api-endpoints)) and deploy the server on your machine. For more information, check out [Server setup walkthrough]([students-api-endpoints](https://github.com/samantehrani/students-api-endpoints)).
 
 ### API Information
 
