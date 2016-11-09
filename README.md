@@ -25,7 +25,6 @@ Your **single page application** must not get load and fetch students informatio
 
 ### Bonus Requirements
 
-- Build a **demo page** using [GitHub Project Page](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
 - Store student information in **[sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)** to avoid loading information in case they have been loaded once before.
 - Use **[Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)** to query and load the content.
 - Make it look beautiful! Be proud of your work. (The most advanced, optimized, modern, or flawless code won't impress much when it is visually unappealing)  
